@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:padding="30dp" android:background="#1a1a2e">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="🚨" android:textSize="60sp" android:layout_marginBottom="10dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Infra Alert" android:textSize="30sp"
+        android:textColor="#FFFFFF" android:textStyle="bold"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Server is Running" android:textSize="16sp"
+        android:textColor="#2ecc71" android:layout_marginTop="20dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Operator URL:" android:textSize="13sp"
+        android:textColor="#bdc3c7" android:layout_marginTop="20dp"/>
+
+    <TextView android:id="@+id/tv_ip" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Detecting IP..."
+        android:textSize="20sp" android:textColor="#e74c3c"
+        android:textStyle="bold" android:layout_marginTop="4dp"/>
+
+    <TextView android:id="@+id/tv_admin" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text=""
+        android:textSize="13sp" android:textColor="#f39c12"
+        android:layout_marginTop="8dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Keep this app open for server to stay active"
+        android:textSize="12sp" android:textColor="#7f8c8d"
+        android:layout_marginTop="30dp" android:gravity="center"/>
+</LinearLayout>
